@@ -1,0 +1,99 @@
+*{
+padding: 0;
+margin: 0;
+box-sizing: border-box;
+}
+body{
+background-color: antiquewhite;
+}
+.container{
+max-width: 900px;
+margin: 50px auto;
+padding: 30px;
+border-radius: 10px;
+transition: all 0.3s ease;
+background-color: white;
+}
+.container:hover{
+box-shadow: 0 10px 30px rgba(0, 0, 0, 0.1);
+}
+h1{
+text-align: center;
+margin-bottom: 30px;
+color: black;
+border-bottom: 3px solid gray;
+padding-bottom: 30px;
+}
+.selectionContainer,
+.searchContainer{
+display: flex;
+align-items: center;
+justify-content: space-between;
+margin-bottom: 20px;
+}
+label{
+font-size: 18px;
+margin-right: 10px;
+}
+select,
+input[type="text"]{
+padding: 8px;
+flex: 1;
+border: 1px solid gray;
+border-radius: 5px;
+outline: none;
+}
+button{
+background-color: black;
+color: white;
+cursor: pointer;
+padding: 8px 20px;
+border: none;
+margin-left: 15px;
+}
+.newsItem{
+display: flex;
+align-items: center;
+margin-top: 40px;
+border-bottom: 1px solid whitesmoke;
+padding-bottom: 20px;
+}
+.newsItem:last-child{
+border-bottom: none;
+}
+.newsImage{
+flex: 1;
+max-width: 300px;
+}
+.newsImage img{
+max-width: 100%;
+height: 180px;
+object-fit: cover;
+border-radius: 10px;
+}
+.newsContent{
+flex: 2;
+margin-left: 20px;
+}
+.newsContent .info h5{
+font-size: 30px;
+color: black;
+font-weight: 700;
+}
+.newsContent h2{
+font-size: 18px;
+color: gray;
+text-align: center;
+}
+.newsContent p{
+color: #B4B4B8;
+margin-top: 5px;
+margin-bottom: 5px;
+}
+.newsContent a{
+text-decoration: none;
+background-color: blue;
+color: white;
+padding: 5px;
+border-radius: 10px;
+}
